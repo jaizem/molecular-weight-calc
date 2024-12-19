@@ -1,7 +1,7 @@
 	Compound name	Molecular weight	Molecular formula
 1	Acetic acid	60.052 g/mol	CH3COOH
 2	Hydrochloric acid	36.458 g/mol	HCl
-3	Sulfuric acid	‎98.072 g/mol	H2SO4
+3	Sulfuric acid 98.072 g/mol	H2SO4
 4	Acetate	59.044 g/mol	CH3COO–
 5	Ammonia	17.031 g/mol	NH3
 6	Nitric acid	63.012 g/mol	HNO3
@@ -15,7 +15,7 @@
 14	Calcium hydroxide	74.092 g/mol	Ca(OH)2
 15	Ethanol	46.069 g/mol	C2H5OH
 16	Hydrobromic acid	80.912 g/mol	HBr
-17	Nitrous acid	‎47.013 g/mol	HNO2
+17	Nitrous acid	47.013 g/mol	HNO2
 18	Potassium hydroxide	56.11 g/mol	KOH
 19	Silver nitrate	169.872 g/mol	AgNO3
 20	Sodium carbonate	105.988 g/mol	Na2CO3
