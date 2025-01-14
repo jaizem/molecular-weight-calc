@@ -1,2 +1,48 @@
-# molecular-weight-calc
-A python program that calculates the molecular weight of a given formula. 
+# Molecular Weight Calculator
+## Overview
+The Molecular Weight Calculator project is a Python-based toolkit designed to assist chemists, students, and researchers by automating essential chemical computations. It currently features:
+1. Molecular Weight Calculation: Computes the molecular weight of a compound from its chemical formula.
+2. Chemical Equation Balancer: Balances chemical equations given reactants and products.
+3. 3D Molecular Visualization (in development): Models molecules in 3D using RDKit and Py3Dmol.
+
+## Features  
+#### Molecular Weight Calculator
+This program takes a chemical formula as input (e.g., H2O, C6H12O6) and calculates its molecular weight using data from the periodic table. The function has been rigorously tested against a dataset containing 273 different compounds to ensure accuracy.
+
+**How it Works**
+1. Parses the chemical formula to identify each element and its count.
+2. Looks up atomic weights from a periodic table data structure.
+3. Calculates the total molecular weight by summing the products of element counts and their atomic weights.
+
+#### Chemical Equation Balancer
+The equation balancer takes a series of reactants and products and outputs a balanced chemical equation. This feature ensures compliance with the law of conservation of mass.
+
+**How it Works**
+1. Parses reactants and products to create a matrix representation of the chemical equation.
+2. Uses matrix algebra to solve for coefficients that balance the equation.
+   
+#### 3D Molecular Visualization (In Progress)
+This functionality will visualize molecules in 3D and include features such as:
+- Reading molecular data from a CSV file using pandas.
+- Signal processing with numpy to analyze spectral data:
+  - Transform data into numpy arrays.
+  - Identify peaks and troughs in spectral lines.
+- Spectral line plotting using seaborn and matplotlib.
+
+**How it Works**
+1. Loads molecular data from a CSV file.
+2. Processes signals by transforming data into numpy arrays. Uses arrays to identify spectral peaks and troughs.
+3. Plots spectral data with seaborn/matplotlib.
+4. Generates 3D molecular models with RDKit and Py3Dmol.
+
+## Getting Started
+### Prerequisites:
+- Python 3.8+
+- Required Python libraries:
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - RDKit
+  - Py3Dmol
+### Installation
