@@ -1,0 +1,10 @@
+name: molecular_weight_calculator
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - rdkit
+  - py3Dmol
