@@ -46,3 +46,38 @@ This functionality will visualize molecules in 3D and include features such as:
   - RDKit
   - Py3Dmol
 ### Installation
+1. Clone the repo:
+   ```
+   git clone https://github.com/jaizem/molecular-weight-calc.git
+   ```
+2. Install the dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+### Usage
+**Molecular Weight Calculator**
+
+Run the script and input a chemical formula:
+   ```
+   python molecular_weight_calculator.py
+   ```
+**Chemical Equation Balancer**
+
+Run the script ad input reactants and products:
+   ```
+   python chemical_eqquation_balancer.py
+   ```
+### Under Development 
+- Complete the 3D molecular visualization feature.
+- Add functionality for advanced spectral analysis.
+- Develop a GUI for an improved user experience.
+
+### Testing 
+- The molecular weight calculator has been validated using a dataset of 273 compounds.
+- The equation balancer has been tested with standard chemical equations from textbooks.
+
+### Contributing
+This is a personal project, but feedback is welcome. Please fork the repository and submit a pull request. 
+
+### License 
+This project is licensed under the MIT License.
