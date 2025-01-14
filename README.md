@@ -50,10 +50,17 @@ This functionality will visualize molecules in 3D and include features such as:
    ```
    git clone https://github.com/jaizem/molecular-weight-calc.git
    ```
-2. Install the dependencies:
+2. Install the dependencies with Conda:
+   ```
+   conda env create -f molecular_weight_calc_env.yml
+   conda activate <environment_name>
+   ```
+   **OR**
+   with pip:
    ```
    pip install -r requirements.txt
    ```
+   
 ### Usage
 **Molecular Weight Calculator**
 
